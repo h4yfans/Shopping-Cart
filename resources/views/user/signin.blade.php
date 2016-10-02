@@ -23,6 +23,7 @@
                 <button type="submit" class="btn btn-primary">Sign In</button>
                 <input type="hidden" name="_token" value="{{Session::token()}}">
             </form>
+            <p>Don't have an account? <a href="{{route('user.signup')}}">Sign Up!</a></p>
         </div>
     </div>
 
